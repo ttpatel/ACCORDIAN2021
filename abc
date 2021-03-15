@@ -1,0 +1,12 @@
+<div class="" id="" style="" >
+      <h2 class="card-header" id="heading${i}">
+      <div id ="usersid"> 
+      BLOGID-${users[i].userId} &nbsp;USERID-${i}
+      </div>
+      <div id="tit">
+      <span id="titles"><strong id="big">TITLE-</strong>${users[i].title}</span>
+      </div>   
+      <div class="card-body">
+      ${users[i].body}
+    </div>       
+      </div>

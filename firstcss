@@ -155,3 +155,14 @@ hr{
 
     </div>
 
+
+
+
+
+ <div class="card-text">
+          <span id="bodyid">Body<br></span>
+          ${users[i].body}<br>
+          <br>
+          <span id="dateid">Monday,15 March</span>
+          </div>
+          </div>   

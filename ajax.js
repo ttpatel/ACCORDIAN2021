@@ -20,22 +20,18 @@ function loadUsers() {
         console.log(" " + j);
 
         output +=
-      `<div class="card"  id="" style= >
+      `<div class="card "  id="" style= >
          <div class="card-body" id="date">
          <h6 class="card-userid">
-          0${users[i].userId} &emsp; &emsp;  &emsp;   &emsp;  &emsp;  &emsp;<span id="ids"> ID-${i}</span>
+          0${users[j].id}
           </h6>
           <div class="card-title">
-         <span id="titleid"> TITLE<br></span>
-          ${users[i].title}
+         <a href="blogdetails.html?id=${users[j].id}" id="titleid"> ${users[j].title}
+         </a>
+        
           </div>
-          <div class="card-text">
-          <span id="bodyid">Body<br></span>
-          ${users[i].body}<br>
-          <br>
-          <span id="dateid">Monday,15 March</span>
-          </div>
-          </div>   
+         
+       </div>
        </div>
       `;
       }
@@ -49,19 +45,3 @@ function loadUsers() {
   xhr.send();
 }
 loadUsers();
-// `<span class="card-group" id="" style="" >
-// <h2 class="card-header" id="heading${i}">
-//     <div id ="usersid ">
-//       0${users[i].userId}
-//     </div>
-//     <br>
-//     <div id="tit">
-//       <strong id="big">TITLE-</strong>${users[i].title}
-//     </div>   
-//     <div class="card-body" id="date">
-//        <strong> BODY-</strong>${users[i].body}
-//     </div>
-//   </h2>     
-// </span>
-// <br>
-// `

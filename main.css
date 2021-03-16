@@ -67,20 +67,27 @@ font-size: 22px;
  }
 
  .card-title{
-font-size: 15px;
+font-size: 25px;
 padding-left: 25px;
 text-transform: uppercase;
 padding-top: 5px;
 
  }
 
- #titleid{
-text-decoration: underline blue;
-    padding-left: 110px;
-    font-size: 22px;
+ a{
+text-decoration: none;
+color: black;
+    font-size: 15px;
+    cursor: pointer;
     font-weight: 700;
     
+    
  }
+
+a:hover{
+    color: rgb(6, 83, 160);
+    background-color: rgb(180, 229, 255);
+}
 
  .card-text{
 padding-top: 5px;
@@ -102,3 +109,5 @@ padding-top: 5px;
      padding-top: 10px;
      font-weight: 600;
  }
+
+ 
